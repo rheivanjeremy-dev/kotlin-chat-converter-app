@@ -1,21 +1,18 @@
- Chat Converter App
+🎓 Student Grade Checker App
 
-A modern Android application built with Kotlin that converts **Direct Speech** into **Indirect Speech** automatically.
-
-This app is designed to help users learn and practice English grammar in a simple and interactive way.
+A simple Android application built with Kotlin to evaluate student scores, determine pass/fail status, and display grade results automatically.
 
 
  ✨ Features
 
-- 🔄 Convert Direct Speech → Indirect Speech
-- 🧠 Automatic tense shifting
-- 👤 Pronoun adjustment
-- ❓ Question sentence conversion
-- 📋 Copy result to clipboard
-- 📜 Conversion history
-- 🗑️ Clear history feature
-- 🌙 Modern dark mode UI
-- ⚡ Real-time processing
+- 📥 Input student score (0-100)
+- ✅ Automatic pass/fail checking
+- 🏆 Grade calculation (A-E)
+- 📝 Score description output
+- 🔄 Reset form feature
+- ⚠️ Input validation
+- 🎨 Clean modern UI using CardView
+
 
  🛠️ Tech Stack
 
@@ -23,75 +20,59 @@ This app is designed to help users learn and practice English grammar in a simpl
 - Android Studio
 - XML Layout
 - Android SDK
-- 
-
- 📚 Supported Reporting Verbs
-
-The app supports multiple reporting verbs such as:
-
-- said
-- told
-- asked
-- whispered
-- shouted
-- replied
-- answered
+- CardView UI
 
 
- 🔍 Example Conversion
+ 📚 Grade System
 
-### Input
-```text
-She said, "I am happy"
-```
+| Score Range | Grade | Description |
+|---|---|---|
+| 90 - 100 | A | Sangat Baik |
+| 80 - 89 | B | Baik |
+| 70 - 79 | C | Cukup |
+| 60 - 69 | D | Kurang |
+| 0 - 59 | E | Sangat Kurang |
 
-### Output
-```text
-She said that she was happy
-```
 
-🚀 How It Works
+ 🚀 How It Works
 
-1. User enters a direct speech sentence
-2. App detects the reporting verb
-3. Tense and pronouns are converted automatically
-4. The indirect speech result is displayed instantly
-5. Conversion history is saved automatically
+1. User inputs a score
+2. App validates the input
+3. System checks pass/fail status
+4. Grade and description are displayed instantly
 
 
  📂 Project Structure
 
-- `MainActivity.kt` → Main conversion logic
-- `activity_main.xml` → User interface
+- `MainActivity.kt` → Main application logic
+- `activity_main.xml` → User interface layout
 - `AndroidManifest.xml` → App configuration
 
 
+ 🎨 UI Features
 
- 🎨 UI Design
-
-The application uses:
-- Dark mode interface
-- Teal accent colors
-- Scrollable layout
-- Custom history cards
-- Clean and modern design
+- Modern CardView layout
+- Clean interface
+- Responsive buttons
+- Dynamic status colors
+- Simple user experience
 
 
-  🎯 Learning Purpose
+ 🎯 Learning Purpose
 
 This project was created to practice:
 
-- Kotlin programming
-- Android UI/UX
-- String processing
-- Regex pattern matching
-- English grammar conversion
-- Clipboard handling
-- Dynamic view generation
-
-  <img width="451" height="810" alt="image" src="https://github.com/user-attachments/assets/f60d81a2-1c47-4ab6-8b71-e23ae9abac78" />
+- Kotlin fundamentals
+- Android UI development
+- Input validation
+- Conditional statements
+- Function modularization
+- Dynamic text updates
 
 
-## 👨‍💻 Developer
 
-Created by **Rheivan Jeremy**
+ 👨‍💻 Developer
+
+Created by Rheivan Jeremy
+
+<img width="448" height="801" alt="image" src="https://github.com/user-attachments/assets/836bec1a-7ba9-4381-b8c5-beff52f447ab" />
